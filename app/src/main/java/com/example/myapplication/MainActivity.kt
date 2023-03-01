@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
 
             Toast.makeText(
                 this@MainActivity,
-                imcMessage,
+                imc.toString() + ": " + imcMessage,
                 Toast.LENGTH_LONG
             ).show()
 
